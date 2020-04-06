@@ -1,0 +1,83 @@
+* {
+    -webkit-box-sizing: border-box;
+    -mox-box-sizing: border-box;
+    box-sizing:border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    background-color:#1e1479fd;
+}
+div#envelope {
+    width: 35%;
+    margin: auto;
+    padding: 5px 0;
+    border: 1px solid #130f40;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+form {
+    width: 80%;
+    margin:5% 10%;
+}
+header{
+    width: 100%;
+    background-color:aliceblue;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 4px;
+    margin-top: -11px;
+    margin-bottom: 4px;
+    border-radius: 10px 10px 0 0;
+    color:  #4834d4;
+    font-family: 'Lucida console';
+}
+header h2 {
+    font-family: 'Do Hyeon', sans-serif;
+}
+header p {
+    color: #000;
+    font-family: serif;
+}
+input[type=text]{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width:100%;
+    padding: 15px;
+    border-radius:5px;
+    border:hidden;
+    background-color: #dfe6e9;
+    font-size: 0.9em;
+    outline: none;
+
+}
+
+div#account {
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 15px 15px 15px 0px;
+    background-color:#3742fa;
+    color:#eee;
+    text-align: center;
+}
+select#about {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+#logo {
+    text-align: center;
+    margin:3%;
+}
+input[type=select] {
+    margin: 10px;
+}
+footer {
+    text-align: center;
+    color: #eee;
+    margin: 10px 20px 10px 30px;
+    padding: 30px;
+}
